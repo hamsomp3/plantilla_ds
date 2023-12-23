@@ -26,3 +26,6 @@ local-setup-windows: install-windows
 
 activate-windows:
 	@echo Run 'powershell .\.venv\Scripts\Activate.ps1' to activate the virtual environment
+
+activate-unix:
+	@echo Run 'source .venv/bin/activate' to activate the virtual environment

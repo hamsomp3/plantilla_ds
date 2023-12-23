@@ -1,5 +1,16 @@
-# plantilla_ds
+# Templete DataScience
 
+## Clone the repository
+
+```sh
+git clone https://github.com/hamsomp3/plantilla_ds.git
+```
+
+
+# Environment Setup (Requirements)
+
+
+## Windows Installation
 For window users, please install the following packages:
 
 [Chocolatey](https://chocolatey.org/install)
@@ -17,5 +28,12 @@ choco install make
 ```
 
 ```sh
-make local-setup
+local-setup-windows: install-windows
+```
+
+## Unix Installation
+
+
+```sh
+local-setup-mac: install-unix
 ```
